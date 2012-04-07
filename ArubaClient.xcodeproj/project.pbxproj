@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3568379A1530C61B009AEE63 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 356837991530C61B009AEE63 /* UIKit.framework */; };
+		3568379C1530C61B009AEE63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3568379B1530C61B009AEE63 /* Foundation.framework */; };
+		3568379E1530C61B009AEE63 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3568379D1530C61B009AEE63 /* CoreGraphics.framework */; };
+		356837A41530C61B009AEE63 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 356837A21530C61B009AEE63 /* InfoPlist.strings */; };
+		356837A61530C61B009AEE63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 356837A51530C61B009AEE63 /* main.m */; };
+		356837AA1530C61B009AEE63 /* CSLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 356837A91530C61B009AEE63 /* CSLAppDelegate.m */; };
+		356837AD1530C61B009AEE63 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 356837AB1530C61B009AEE63 /* MainStoryboard.storyboard */; };
+		356837B01530C61B009AEE63 /* CSLFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 356837AF1530C61B009AEE63 /* CSLFirstViewController.m */; };
+		356837B21530C61B009AEE63 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 356837B11530C61B009AEE63 /* first.png */; };
+		356837B41530C61B009AEE63 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 356837B31530C61B009AEE63 /* first@2x.png */; };
+		356837B71530C61B009AEE63 /* CSLSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 356837B61530C61B009AEE63 /* CSLSecondViewController.m */; };
+		356837B91530C61B009AEE63 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 356837B81530C61B009AEE63 /* second.png */; };
+		356837BB1530C61B009AEE63 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 356837BA1530C61B009AEE63 /* second@2x.png */; };
+		356837C31530C61B009AEE63 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 356837C21530C61B009AEE63 /* SenTestingKit.framework */; };
+		356837C41530C61B009AEE63 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 356837991530C61B009AEE63 /* UIKit.framework */; };
+		356837C51530C61B009AEE63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3568379B1530C61B009AEE63 /* Foundation.framework */; };
+		356837CD1530C61C009AEE63 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 356837CB1530C61C009AEE63 /* InfoPlist.strings */; };
+		356837D01530C61C009AEE63 /* ArubaClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 356837CF1530C61C009AEE63 /* ArubaClientTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		356837C61530C61B009AEE63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3568378C1530C61B009AEE63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 356837941530C61B009AEE63;
+			remoteInfo = ArubaClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		356837951530C61B009AEE63 /* ArubaClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArubaClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		356837991530C61B009AEE63 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3568379B1530C61B009AEE63 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3568379D1530C61B009AEE63 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		356837A11530C61B009AEE63 /* ArubaClient-Info.plist */ = {isa = PBXFileReference; path = "ArubaClient-Info.plist"; sourceTree = "<group>"; };
+		356837A31530C61B009AEE63 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		356837A51530C61B009AEE63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		356837A71530C61B009AEE63 /* ArubaClient-Prefix.pch */ = {isa = PBXFileReference; path = "ArubaClient-Prefix.pch"; sourceTree = "<group>"; };
+		356837A81530C61B009AEE63 /* CSLAppDelegate.h */ = {isa = PBXFileReference; path = CSLAppDelegate.h; sourceTree = "<group>"; };
+		356837A91530C61B009AEE63 /* CSLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSLAppDelegate.m; sourceTree = "<group>"; };
+		356837AC1530C61B009AEE63 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		356837AE1530C61B009AEE63 /* CSLFirstViewController.h */ = {isa = PBXFileReference; path = CSLFirstViewController.h; sourceTree = "<group>"; };
+		356837AF1530C61B009AEE63 /* CSLFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSLFirstViewController.m; sourceTree = "<group>"; };
+		356837B11530C61B009AEE63 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		356837B31530C61B009AEE63 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		356837B51530C61B009AEE63 /* CSLSecondViewController.h */ = {isa = PBXFileReference; path = CSLSecondViewController.h; sourceTree = "<group>"; };
+		356837B61530C61B009AEE63 /* CSLSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSLSecondViewController.m; sourceTree = "<group>"; };
+		356837B81530C61B009AEE63 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		356837BA1530C61B009AEE63 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		356837C11530C61B009AEE63 /* ArubaClientTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArubaClientTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		356837C21530C61B009AEE63 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		356837CA1530C61C009AEE63 /* ArubaClientTests-Info.plist */ = {isa = PBXFileReference; path = "ArubaClientTests-Info.plist"; sourceTree = "<group>"; };
+		356837CC1530C61C009AEE63 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		356837CE1530C61C009AEE63 /* ArubaClientTests.h */ = {isa = PBXFileReference; path = ArubaClientTests.h; sourceTree = "<group>"; };
+		356837CF1530C61C009AEE63 /* ArubaClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArubaClientTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		356837921530C61B009AEE63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3568379A1530C61B009AEE63 /* UIKit.framework in Frameworks */,
+				3568379C1530C61B009AEE63 /* Foundation.framework in Frameworks */,
+				3568379E1530C61B009AEE63 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		356837BD1530C61B009AEE63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				356837C31530C61B009AEE63 /* SenTestingKit.framework in Frameworks */,
+				356837C41530C61B009AEE63 /* UIKit.framework in Frameworks */,
+				356837C51530C61B009AEE63 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3568378A1530C61B009AEE63 = {
+			isa = PBXGroup;
+			children = (
+				3568379F1530C61B009AEE63 /* ArubaClient */,
+				356837C81530C61B009AEE63 /* ArubaClientTests */,
+				356837981530C61B009AEE63 /* Frameworks */,
+				356837961530C61B009AEE63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		356837961530C61B009AEE63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				356837951530C61B009AEE63 /* ArubaClient.app */,
+				356837C11530C61B009AEE63 /* ArubaClientTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		356837981530C61B009AEE63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				356837991530C61B009AEE63 /* UIKit.framework */,
+				3568379B1530C61B009AEE63 /* Foundation.framework */,
+				3568379D1530C61B009AEE63 /* CoreGraphics.framework */,
+				356837C21530C61B009AEE63 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3568379F1530C61B009AEE63 /* ArubaClient */ = {
+			isa = PBXGroup;
+			children = (
+				356837A81530C61B009AEE63 /* CSLAppDelegate.h */,
+				356837A91530C61B009AEE63 /* CSLAppDelegate.m */,
+				356837AB1530C61B009AEE63 /* MainStoryboard.storyboard */,
+				356837AE1530C61B009AEE63 /* CSLFirstViewController.h */,
+				356837AF1530C61B009AEE63 /* CSLFirstViewController.m */,
+				356837B11530C61B009AEE63 /* first.png */,
+				356837B31530C61B009AEE63 /* first@2x.png */,
+				356837B51530C61B009AEE63 /* CSLSecondViewController.h */,
+				356837B61530C61B009AEE63 /* CSLSecondViewController.m */,
+				356837B81530C61B009AEE63 /* second.png */,
+				356837BA1530C61B009AEE63 /* second@2x.png */,
+				356837A01530C61B009AEE63 /* Supporting Files */,
+			);
+			path = ArubaClient;
+			sourceTree = "<group>";
+		};
+		356837A01530C61B009AEE63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				356837A11530C61B009AEE63 /* ArubaClient-Info.plist */,
+				356837A21530C61B009AEE63 /* InfoPlist.strings */,
+				356837A51530C61B009AEE63 /* main.m */,
+				356837A71530C61B009AEE63 /* ArubaClient-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		356837C81530C61B009AEE63 /* ArubaClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				356837CE1530C61C009AEE63 /* ArubaClientTests.h */,
+				356837CF1530C61C009AEE63 /* ArubaClientTests.m */,
+				356837C91530C61C009AEE63 /* Supporting Files */,
+			);
+			path = ArubaClientTests;
+			sourceTree = "<group>";
+		};
+		356837C91530C61C009AEE63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				356837CA1530C61C009AEE63 /* ArubaClientTests-Info.plist */,
+				356837CB1530C61C009AEE63 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		356837941530C61B009AEE63 /* ArubaClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 356837D31530C61C009AEE63 /* Build configuration list for PBXNativeTarget "ArubaClient" */;
+			buildPhases = (
+				356837911530C61B009AEE63 /* Sources */,
+				356837921530C61B009AEE63 /* Frameworks */,
+				356837931530C61B009AEE63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArubaClient;
+			productName = ArubaClient;
+			productReference = 356837951530C61B009AEE63 /* ArubaClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		356837C01530C61B009AEE63 /* ArubaClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 356837D61530C61C009AEE63 /* Build configuration list for PBXNativeTarget "ArubaClientTests" */;
+			buildPhases = (
+				356837BC1530C61B009AEE63 /* Sources */,
+				356837BD1530C61B009AEE63 /* Frameworks */,
+				356837BE1530C61B009AEE63 /* Resources */,
+				356837BF1530C61B009AEE63 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				356837C71530C61B009AEE63 /* PBXTargetDependency */,
+			);
+			name = ArubaClientTests;
+			productName = ArubaClientTests;
+			productReference = 356837C11530C61B009AEE63 /* ArubaClientTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3568378C1530C61B009AEE63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CSL;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 3568378F1530C61B009AEE63 /* Build configuration list for PBXProject "ArubaClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3568378A1530C61B009AEE63;
+			productRefGroup = 356837961530C61B009AEE63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				356837941530C61B009AEE63 /* ArubaClient */,
+				356837C01530C61B009AEE63 /* ArubaClientTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		356837931530C61B009AEE63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				356837A41530C61B009AEE63 /* InfoPlist.strings in Resources */,
+				356837AD1530C61B009AEE63 /* MainStoryboard.storyboard in Resources */,
+				356837B21530C61B009AEE63 /* first.png in Resources */,
+				356837B41530C61B009AEE63 /* first@2x.png in Resources */,
+				356837B91530C61B009AEE63 /* second.png in Resources */,
+				356837BB1530C61B009AEE63 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		356837BE1530C61B009AEE63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				356837CD1530C61C009AEE63 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		356837BF1530C61B009AEE63 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		356837911530C61B009AEE63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				356837A61530C61B009AEE63 /* main.m in Sources */,
+				356837AA1530C61B009AEE63 /* CSLAppDelegate.m in Sources */,
+				356837B01530C61B009AEE63 /* CSLFirstViewController.m in Sources */,
+				356837B71530C61B009AEE63 /* CSLSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		356837BC1530C61B009AEE63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				356837D01530C61C009AEE63 /* ArubaClientTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		356837C71530C61B009AEE63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 356837941530C61B009AEE63 /* ArubaClient */;
+			targetProxy = 356837C61530C61B009AEE63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		356837A21530C61B009AEE63 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				356837A31530C61B009AEE63 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		356837AB1530C61B009AEE63 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				356837AC1530C61B009AEE63 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		356837CB1530C61C009AEE63 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				356837CC1530C61C009AEE63 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		356837D11530C61C009AEE63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		356837D21530C61C009AEE63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		356837D41530C61C009AEE63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ArubaClient/ArubaClient-Prefix.pch";
+				INFOPLIST_FILE = "ArubaClient/ArubaClient-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		356837D51530C61C009AEE63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ArubaClient/ArubaClient-Prefix.pch";
+				INFOPLIST_FILE = "ArubaClient/ArubaClient-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		356837D71530C61C009AEE63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ArubaClient.app/ArubaClient";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ArubaClient/ArubaClient-Prefix.pch";
+				INFOPLIST_FILE = "ArubaClientTests/ArubaClientTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		356837D81530C61C009AEE63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ArubaClient.app/ArubaClient";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ArubaClient/ArubaClient-Prefix.pch";
+				INFOPLIST_FILE = "ArubaClientTests/ArubaClientTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3568378F1530C61B009AEE63 /* Build configuration list for PBXProject "ArubaClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				356837D11530C61C009AEE63 /* Debug */,
+				356837D21530C61C009AEE63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		356837D31530C61C009AEE63 /* Build configuration list for PBXNativeTarget "ArubaClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				356837D41530C61C009AEE63 /* Debug */,
+				356837D51530C61C009AEE63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		356837D61530C61C009AEE63 /* Build configuration list for PBXNativeTarget "ArubaClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				356837D71530C61C009AEE63 /* Debug */,
+				356837D81530C61C009AEE63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3568378C1530C61B009AEE63 /* Project object */;
+}
