@@ -25,6 +25,30 @@
 		356837C51530C61B009AEE63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3568379B1530C61B009AEE63 /* Foundation.framework */; };
 		356837CD1530C61C009AEE63 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 356837CB1530C61C009AEE63 /* InfoPlist.strings */; };
 		356837D01530C61C009AEE63 /* ArubaClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 356837CF1530C61C009AEE63 /* ArubaClientTests.m */; };
+		356837F01530CA6C009AEE63 /* libRestKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 356837E51530C974009AEE63 /* libRestKit.a */; };
+		356837F91530CAFA009AEE63 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 356837F21530CAFA009AEE63 /* CFNetwork.framework */; };
+		356837FA1530CAFA009AEE63 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 356837F31530CAFA009AEE63 /* CoreData.framework */; };
+		356837FB1530CAFA009AEE63 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 356837F41530CAFA009AEE63 /* libxml2.dylib */; };
+		356837FC1530CAFA009AEE63 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 356837F51530CAFA009AEE63 /* MobileCoreServices.framework */; };
+		356837FD1530CAFA009AEE63 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 356837F61530CAFA009AEE63 /* QuartzCore.framework */; };
+		356837FE1530CAFA009AEE63 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 356837F71530CAFA009AEE63 /* Security.framework */; };
+		356837FF1530CAFA009AEE63 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 356837F81530CAFA009AEE63 /* SystemConfiguration.framework */; };
+		3568382315328532009AEE63 /* CSLEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 3568382215328532009AEE63 /* CSLEvent.m */; };
+		3568382415328532009AEE63 /* CSLEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 3568382215328532009AEE63 /* CSLEvent.m */; };
+		357195521538AC550037AB36 /* CSLCellFormViewTextInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 357195511538AC550037AB36 /* CSLCellFormViewTextInput.m */; };
+		357195551538AE7E0037AB36 /* CSLEventFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 357195541538AE7E0037AB36 /* CSLEventFormViewController.m */; };
+		357195571538B63D0037AB36 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 357195561538B63C0037AB36 /* Images */; };
+		3599B4A91537B0C500C0E156 /* CSLCellShowViewTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 3599B4A81537B0C500C0E156 /* CSLCellShowViewTitle.m */; };
+		3599B4AC1537B0FC00C0E156 /* CSLCellShowViewImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3599B4AB1537B0FC00C0E156 /* CSLCellShowViewImage.m */; };
+		3599B4AF1537B13400C0E156 /* CSLCellShowViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 3599B4AE1537B13400C0E156 /* CSLCellShowViewAttribute.m */; };
+		3599B4B21537B16A00C0E156 /* CSLCellShowViewLongText.m in Sources */ = {isa = PBXBuildFile; fileRef = 3599B4B11537B16A00C0E156 /* CSLCellShowViewLongText.m */; };
+		3599B4B51537B19C00C0E156 /* CSLCellShowViewMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 3599B4B41537B19C00C0E156 /* CSLCellShowViewMap.m */; };
+		35D9871D15379B0800820641 /* CSLShowEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D9871C15379B0800820641 /* CSLShowEventViewController.m */; };
+		35D9871E15379B0800820641 /* CSLShowEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D9871C15379B0800820641 /* CSLShowEventViewController.m */; };
+		35E9E7951538C814001A8502 /* mWallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 35E9E7931538C814001A8502 /* mWallpaper.jpg */; };
+		35E9E7961538C814001A8502 /* mWallpaper@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 35E9E7941538C814001A8502 /* mWallpaper@2x.jpg */; };
+		35E9E7991538CA20001A8502 /* gWallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 35E9E7971538CA20001A8502 /* gWallpaper.jpg */; };
+		35E9E79A1538CA20001A8502 /* gWallpaper@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 35E9E7981538CA20001A8502 /* gWallpaper@2x.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +59,48 @@
 			remoteGlobalIDString = 356837941530C61B009AEE63;
 			remoteInfo = ArubaClient;
 		};
+		356837E41530C974009AEE63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 356837D91530C973009AEE63 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160D1614564E810060A5C5;
+			remoteInfo = RestKit;
+		};
+		356837E61530C974009AEE63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 356837D91530C973009AEE63 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160D2614564E820060A5C5;
+			remoteInfo = RestKitTests;
+		};
+		356837E81530C974009AEE63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 356837D91530C973009AEE63 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160E62145651060060A5C5;
+			remoteInfo = RestKitFramework;
+		};
+		356837EA1530C974009AEE63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 356837D91530C973009AEE63 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160E78145651060060A5C5;
+			remoteInfo = RestKitFrameworkTests;
+		};
+		356837EC1530C974009AEE63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 356837D91530C973009AEE63 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 259C301615128079003066A2;
+			remoteInfo = RestKitResources;
+		};
+		356837EE1530CA3C009AEE63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 356837D91530C973009AEE63 /* RestKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 25160D1514564E810060A5C5;
+			remoteInfo = RestKit;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -42,27 +108,58 @@
 		356837991530C61B009AEE63 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3568379B1530C61B009AEE63 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3568379D1530C61B009AEE63 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		356837A11530C61B009AEE63 /* ArubaClient-Info.plist */ = {isa = PBXFileReference; path = "ArubaClient-Info.plist"; sourceTree = "<group>"; };
+		356837A11530C61B009AEE63 /* ArubaClient-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ArubaClient-Info.plist"; sourceTree = "<group>"; };
 		356837A31530C61B009AEE63 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		356837A51530C61B009AEE63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		356837A71530C61B009AEE63 /* ArubaClient-Prefix.pch */ = {isa = PBXFileReference; path = "ArubaClient-Prefix.pch"; sourceTree = "<group>"; };
-		356837A81530C61B009AEE63 /* CSLAppDelegate.h */ = {isa = PBXFileReference; path = CSLAppDelegate.h; sourceTree = "<group>"; };
+		356837A71530C61B009AEE63 /* ArubaClient-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ArubaClient-Prefix.pch"; sourceTree = "<group>"; };
+		356837A81530C61B009AEE63 /* CSLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSLAppDelegate.h; sourceTree = "<group>"; };
 		356837A91530C61B009AEE63 /* CSLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSLAppDelegate.m; sourceTree = "<group>"; };
 		356837AC1530C61B009AEE63 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		356837AE1530C61B009AEE63 /* CSLFirstViewController.h */ = {isa = PBXFileReference; path = CSLFirstViewController.h; sourceTree = "<group>"; };
+		356837AE1530C61B009AEE63 /* CSLFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSLFirstViewController.h; sourceTree = "<group>"; };
 		356837AF1530C61B009AEE63 /* CSLFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSLFirstViewController.m; sourceTree = "<group>"; };
 		356837B11530C61B009AEE63 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		356837B31530C61B009AEE63 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		356837B51530C61B009AEE63 /* CSLSecondViewController.h */ = {isa = PBXFileReference; path = CSLSecondViewController.h; sourceTree = "<group>"; };
+		356837B51530C61B009AEE63 /* CSLSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSLSecondViewController.h; sourceTree = "<group>"; };
 		356837B61530C61B009AEE63 /* CSLSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSLSecondViewController.m; sourceTree = "<group>"; };
 		356837B81530C61B009AEE63 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		356837BA1530C61B009AEE63 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		356837C11530C61B009AEE63 /* ArubaClientTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArubaClientTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		356837C21530C61B009AEE63 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		356837CA1530C61C009AEE63 /* ArubaClientTests-Info.plist */ = {isa = PBXFileReference; path = "ArubaClientTests-Info.plist"; sourceTree = "<group>"; };
+		356837CA1530C61C009AEE63 /* ArubaClientTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ArubaClientTests-Info.plist"; sourceTree = "<group>"; };
 		356837CC1530C61C009AEE63 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		356837CE1530C61C009AEE63 /* ArubaClientTests.h */ = {isa = PBXFileReference; path = ArubaClientTests.h; sourceTree = "<group>"; };
+		356837CE1530C61C009AEE63 /* ArubaClientTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArubaClientTests.h; sourceTree = "<group>"; };
 		356837CF1530C61C009AEE63 /* ArubaClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArubaClientTests.m; sourceTree = "<group>"; };
+		356837D91530C973009AEE63 /* RestKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RestKit.xcodeproj; path = ResKit/RestKit.xcodeproj; sourceTree = "<group>"; };
+		356837F21530CAFA009AEE63 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		356837F31530CAFA009AEE63 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		356837F41530CAFA009AEE63 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		356837F51530CAFA009AEE63 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		356837F61530CAFA009AEE63 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		356837F71530CAFA009AEE63 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		356837F81530CAFA009AEE63 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3568382115328532009AEE63 /* CSLEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSLEvent.h; sourceTree = "<group>"; };
+		3568382215328532009AEE63 /* CSLEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSLEvent.m; sourceTree = "<group>"; };
+		357195501538AC550037AB36 /* CSLCellFormViewTextInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSLCellFormViewTextInput.h; sourceTree = "<group>"; };
+		357195511538AC550037AB36 /* CSLCellFormViewTextInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSLCellFormViewTextInput.m; sourceTree = "<group>"; };
+		357195531538AE7E0037AB36 /* CSLEventFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSLEventFormViewController.h; sourceTree = "<group>"; };
+		357195541538AE7E0037AB36 /* CSLEventFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSLEventFormViewController.m; sourceTree = "<group>"; };
+		357195561538B63C0037AB36 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
+		3599B4A71537B0C500C0E156 /* CSLCellShowViewTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSLCellShowViewTitle.h; sourceTree = "<group>"; };
+		3599B4A81537B0C500C0E156 /* CSLCellShowViewTitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSLCellShowViewTitle.m; sourceTree = "<group>"; };
+		3599B4AA1537B0FC00C0E156 /* CSLCellShowViewImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSLCellShowViewImage.h; sourceTree = "<group>"; };
+		3599B4AB1537B0FC00C0E156 /* CSLCellShowViewImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSLCellShowViewImage.m; sourceTree = "<group>"; };
+		3599B4AD1537B13400C0E156 /* CSLCellShowViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSLCellShowViewAttribute.h; sourceTree = "<group>"; };
+		3599B4AE1537B13400C0E156 /* CSLCellShowViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSLCellShowViewAttribute.m; sourceTree = "<group>"; };
+		3599B4B01537B16A00C0E156 /* CSLCellShowViewLongText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSLCellShowViewLongText.h; sourceTree = "<group>"; };
+		3599B4B11537B16A00C0E156 /* CSLCellShowViewLongText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSLCellShowViewLongText.m; sourceTree = "<group>"; };
+		3599B4B31537B19C00C0E156 /* CSLCellShowViewMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSLCellShowViewMap.h; sourceTree = "<group>"; };
+		3599B4B41537B19C00C0E156 /* CSLCellShowViewMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSLCellShowViewMap.m; sourceTree = "<group>"; };
+		35D9871B15379B0800820641 /* CSLShowEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSLShowEventViewController.h; sourceTree = "<group>"; };
+		35D9871C15379B0800820641 /* CSLShowEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSLShowEventViewController.m; sourceTree = "<group>"; };
+		35E9E7931538C814001A8502 /* mWallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mWallpaper.jpg; path = Images/mWallpaper.jpg; sourceTree = "<group>"; };
+		35E9E7941538C814001A8502 /* mWallpaper@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "mWallpaper@2x.jpg"; path = "Images/mWallpaper@2x.jpg"; sourceTree = "<group>"; };
+		35E9E7971538CA20001A8502 /* gWallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = gWallpaper.jpg; path = Images/gWallpaper.jpg; sourceTree = "<group>"; };
+		35E9E7981538CA20001A8502 /* gWallpaper@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "gWallpaper@2x.jpg"; path = "Images/gWallpaper@2x.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +167,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				356837F91530CAFA009AEE63 /* CFNetwork.framework in Frameworks */,
+				356837FA1530CAFA009AEE63 /* CoreData.framework in Frameworks */,
+				356837FB1530CAFA009AEE63 /* libxml2.dylib in Frameworks */,
+				356837FC1530CAFA009AEE63 /* MobileCoreServices.framework in Frameworks */,
+				356837FD1530CAFA009AEE63 /* QuartzCore.framework in Frameworks */,
+				356837FE1530CAFA009AEE63 /* Security.framework in Frameworks */,
+				356837FF1530CAFA009AEE63 /* SystemConfiguration.framework in Frameworks */,
+				356837F01530CA6C009AEE63 /* libRestKit.a in Frameworks */,
 				3568379A1530C61B009AEE63 /* UIKit.framework in Frameworks */,
 				3568379C1530C61B009AEE63 /* Foundation.framework in Frameworks */,
 				3568379E1530C61B009AEE63 /* CoreGraphics.framework in Frameworks */,
@@ -92,6 +197,7 @@
 		3568378A1530C61B009AEE63 = {
 			isa = PBXGroup;
 			children = (
+				356837D91530C973009AEE63 /* RestKit.xcodeproj */,
 				3568379F1530C61B009AEE63 /* ArubaClient */,
 				356837C81530C61B009AEE63 /* ArubaClientTests */,
 				356837981530C61B009AEE63 /* Frameworks */,
@@ -111,6 +217,13 @@
 		356837981530C61B009AEE63 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				356837F21530CAFA009AEE63 /* CFNetwork.framework */,
+				356837F31530CAFA009AEE63 /* CoreData.framework */,
+				356837F41530CAFA009AEE63 /* libxml2.dylib */,
+				356837F51530CAFA009AEE63 /* MobileCoreServices.framework */,
+				356837F61530CAFA009AEE63 /* QuartzCore.framework */,
+				356837F71530CAFA009AEE63 /* Security.framework */,
+				356837F81530CAFA009AEE63 /* SystemConfiguration.framework */,
 				356837991530C61B009AEE63 /* UIKit.framework */,
 				3568379B1530C61B009AEE63 /* Foundation.framework */,
 				3568379D1530C61B009AEE63 /* CoreGraphics.framework */,
@@ -122,17 +235,14 @@
 		3568379F1530C61B009AEE63 /* ArubaClient */ = {
 			isa = PBXGroup;
 			children = (
+				357195561538B63C0037AB36 /* Images */,
+				3599B4A61537B06B00C0E156 /* CustomCells */,
+				3568381B15321881009AEE63 /* Controllers */,
+				3568381A15321874009AEE63 /* Models */,
+				3568381C15321895009AEE63 /* Images */,
 				356837A81530C61B009AEE63 /* CSLAppDelegate.h */,
 				356837A91530C61B009AEE63 /* CSLAppDelegate.m */,
 				356837AB1530C61B009AEE63 /* MainStoryboard.storyboard */,
-				356837AE1530C61B009AEE63 /* CSLFirstViewController.h */,
-				356837AF1530C61B009AEE63 /* CSLFirstViewController.m */,
-				356837B11530C61B009AEE63 /* first.png */,
-				356837B31530C61B009AEE63 /* first@2x.png */,
-				356837B51530C61B009AEE63 /* CSLSecondViewController.h */,
-				356837B61530C61B009AEE63 /* CSLSecondViewController.m */,
-				356837B81530C61B009AEE63 /* second.png */,
-				356837BA1530C61B009AEE63 /* second@2x.png */,
 				356837A01530C61B009AEE63 /* Supporting Files */,
 			);
 			path = ArubaClient;
@@ -168,6 +278,85 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		356837DA1530C973009AEE63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				356837E51530C974009AEE63 /* libRestKit.a */,
+				356837E71530C974009AEE63 /* RestKitTests.octest */,
+				356837E91530C974009AEE63 /* RestKit.framework */,
+				356837EB1530C974009AEE63 /* RestKitFrameworkTests.octest */,
+				356837ED1530C974009AEE63 /* RestKitResources.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3568381A15321874009AEE63 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3568382115328532009AEE63 /* CSLEvent.h */,
+				3568382215328532009AEE63 /* CSLEvent.m */,
+			);
+			name = Models;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		3568381B15321881009AEE63 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				35D9871A15379A7B00820641 /* Events */,
+				356837AE1530C61B009AEE63 /* CSLFirstViewController.h */,
+				356837AF1530C61B009AEE63 /* CSLFirstViewController.m */,
+				356837B51530C61B009AEE63 /* CSLSecondViewController.h */,
+				356837B61530C61B009AEE63 /* CSLSecondViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		3568381C15321895009AEE63 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				35E9E7971538CA20001A8502 /* gWallpaper.jpg */,
+				35E9E7981538CA20001A8502 /* gWallpaper@2x.jpg */,
+				35E9E7931538C814001A8502 /* mWallpaper.jpg */,
+				35E9E7941538C814001A8502 /* mWallpaper@2x.jpg */,
+				356837B11530C61B009AEE63 /* first.png */,
+				356837B31530C61B009AEE63 /* first@2x.png */,
+				356837B81530C61B009AEE63 /* second.png */,
+				356837BA1530C61B009AEE63 /* second@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		3599B4A61537B06B00C0E156 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				3599B4A71537B0C500C0E156 /* CSLCellShowViewTitle.h */,
+				3599B4A81537B0C500C0E156 /* CSLCellShowViewTitle.m */,
+				3599B4AA1537B0FC00C0E156 /* CSLCellShowViewImage.h */,
+				3599B4AB1537B0FC00C0E156 /* CSLCellShowViewImage.m */,
+				3599B4AD1537B13400C0E156 /* CSLCellShowViewAttribute.h */,
+				3599B4AE1537B13400C0E156 /* CSLCellShowViewAttribute.m */,
+				3599B4B01537B16A00C0E156 /* CSLCellShowViewLongText.h */,
+				3599B4B11537B16A00C0E156 /* CSLCellShowViewLongText.m */,
+				3599B4B31537B19C00C0E156 /* CSLCellShowViewMap.h */,
+				3599B4B41537B19C00C0E156 /* CSLCellShowViewMap.m */,
+				357195501538AC550037AB36 /* CSLCellFormViewTextInput.h */,
+				357195511538AC550037AB36 /* CSLCellFormViewTextInput.m */,
+			);
+			name = CustomCells;
+			sourceTree = "<group>";
+		};
+		35D9871A15379A7B00820641 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				35D9871B15379B0800820641 /* CSLShowEventViewController.h */,
+				35D9871C15379B0800820641 /* CSLShowEventViewController.m */,
+				357195531538AE7E0037AB36 /* CSLEventFormViewController.h */,
+				357195541538AE7E0037AB36 /* CSLEventFormViewController.m */,
+			);
+			name = Events;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -182,6 +371,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				356837EF1530CA3C009AEE63 /* PBXTargetDependency */,
 			);
 			name = ArubaClient;
 			productName = ArubaClient;
@@ -226,6 +416,12 @@
 			mainGroup = 3568378A1530C61B009AEE63;
 			productRefGroup = 356837961530C61B009AEE63 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 356837DA1530C973009AEE63 /* Products */;
+					ProjectRef = 356837D91530C973009AEE63 /* RestKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				356837941530C61B009AEE63 /* ArubaClient */,
@@ -233,6 +429,44 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		356837E51530C974009AEE63 /* libRestKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKit.a;
+			remoteRef = 356837E41530C974009AEE63 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		356837E71530C974009AEE63 /* RestKitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitTests.octest;
+			remoteRef = 356837E61530C974009AEE63 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		356837E91530C974009AEE63 /* RestKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RestKit.framework;
+			remoteRef = 356837E81530C974009AEE63 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		356837EB1530C974009AEE63 /* RestKitFrameworkTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitFrameworkTests.octest;
+			remoteRef = 356837EA1530C974009AEE63 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		356837ED1530C974009AEE63 /* RestKitResources.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitResources.bundle;
+			remoteRef = 356837EC1530C974009AEE63 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		356837931530C61B009AEE63 /* Resources */ = {
@@ -245,6 +479,11 @@
 				356837B41530C61B009AEE63 /* first@2x.png in Resources */,
 				356837B91530C61B009AEE63 /* second.png in Resources */,
 				356837BB1530C61B009AEE63 /* second@2x.png in Resources */,
+				357195571538B63D0037AB36 /* Images in Resources */,
+				35E9E7951538C814001A8502 /* mWallpaper.jpg in Resources */,
+				35E9E7961538C814001A8502 /* mWallpaper@2x.jpg in Resources */,
+				35E9E7991538CA20001A8502 /* gWallpaper.jpg in Resources */,
+				35E9E79A1538CA20001A8502 /* gWallpaper@2x.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +522,15 @@
 				356837AA1530C61B009AEE63 /* CSLAppDelegate.m in Sources */,
 				356837B01530C61B009AEE63 /* CSLFirstViewController.m in Sources */,
 				356837B71530C61B009AEE63 /* CSLSecondViewController.m in Sources */,
+				3568382315328532009AEE63 /* CSLEvent.m in Sources */,
+				35D9871D15379B0800820641 /* CSLShowEventViewController.m in Sources */,
+				3599B4A91537B0C500C0E156 /* CSLCellShowViewTitle.m in Sources */,
+				3599B4AC1537B0FC00C0E156 /* CSLCellShowViewImage.m in Sources */,
+				3599B4AF1537B13400C0E156 /* CSLCellShowViewAttribute.m in Sources */,
+				3599B4B21537B16A00C0E156 /* CSLCellShowViewLongText.m in Sources */,
+				3599B4B51537B19C00C0E156 /* CSLCellShowViewMap.m in Sources */,
+				357195521538AC550037AB36 /* CSLCellFormViewTextInput.m in Sources */,
+				357195551538AE7E0037AB36 /* CSLEventFormViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +539,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				356837D01530C61C009AEE63 /* ArubaClientTests.m in Sources */,
+				3568382415328532009AEE63 /* CSLEvent.m in Sources */,
+				35D9871E15379B0800820641 /* CSLShowEventViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +551,11 @@
 			isa = PBXTargetDependency;
 			target = 356837941530C61B009AEE63 /* ArubaClient */;
 			targetProxy = 356837C61530C61B009AEE63 /* PBXContainerItemProxy */;
+		};
+		356837EF1530CA3C009AEE63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RestKit;
+			targetProxy = 356837EE1530CA3C009AEE63 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -382,8 +637,15 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ArubaClient/ArubaClient-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/../../Headers\"";
 				INFOPLIST_FILE = "ArubaClient/ArubaClient-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -393,8 +655,15 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ArubaClient/ArubaClient-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/../../Headers\"";
 				INFOPLIST_FILE = "ArubaClient/ArubaClient-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -452,6 +721,7 @@
 				356837D51530C61C009AEE63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		356837D61530C61C009AEE63 /* Build configuration list for PBXNativeTarget "ArubaClientTests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +730,7 @@
 				356837D81530C61C009AEE63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
