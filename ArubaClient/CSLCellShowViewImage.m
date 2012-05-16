@@ -7,6 +7,7 @@
 //
 
 #import "CSLCellShowViewImage.h"
+#include <QuartzCore/QuartzCore.h>
 
 @implementation CSLCellShowViewImage
 @synthesize imageView;
@@ -14,7 +15,11 @@
 {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
-        // Initialization code
+        [[imageView layer] setShadowOffset:CGSizeMake(0, 1)];
+        [[imageView layer] setShadowColor:[[UIColor darkGrayColor] CGColor]];
+        [[imageView layer] setShadowRadius:3.0];
+        [[imageView layer] setShadowOpacity:0.8];
+        NSLog(@"loaded layer");
     }
     return self;
 }

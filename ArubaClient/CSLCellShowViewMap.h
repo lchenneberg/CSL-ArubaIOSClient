@@ -11,6 +11,6 @@
 
 @interface CSLCellShowViewMap : UITableViewCell
 
-@property (nonatomic, weak) IBOutlet MKMapView *map;
+@property (nonatomic, strong) IBOutlet MKMapView *map;
 
 @end

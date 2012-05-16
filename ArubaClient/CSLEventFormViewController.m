@@ -41,6 +41,8 @@
     inputName.textInputField.delegate = self;
     inputName.textInputField.tag = 0;
     
+    
+    
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
     [dateFormatter setLocale:[[NSLocale alloc] initWithLocaleIdentifier:@"en_US_POSIX"]];
     [dateFormatter setDateFormat:@"EEE, d MMM yyyy HH:mm"];

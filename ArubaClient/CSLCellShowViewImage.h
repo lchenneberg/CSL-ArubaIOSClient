@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface CSLCellShowViewImage : UITableViewCell
-@property (nonatomic, weak) IBOutlet UIImageView *imageView;
+@property (strong, nonatomic) IBOutlet UIImageView *imageView;
 @end

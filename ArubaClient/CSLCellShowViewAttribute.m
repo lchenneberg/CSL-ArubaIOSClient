@@ -26,4 +26,21 @@
     // Configure the view for the selected state
 }
 
+-(id)initWithFrame:(CGRect)frame reuseIdentifier:(NSString *)reuseIdentifier
+{
+    NSLog(@"initframereuseidentifier");
+
+    if (self = [super initWithFrame:frame reuseIdentifier:reuseIdentifier]) {
+        NSLog(@"initframereuseidentifier");
+    }
+    return self;
+}
+
+-(void)drawRect:(CGRect)rect{
+}
+
+-(void)layoutSubviews{
+    [super layoutSubviews];
+}
+
 @end

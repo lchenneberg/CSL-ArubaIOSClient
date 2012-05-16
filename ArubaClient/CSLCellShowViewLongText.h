@@ -10,6 +10,7 @@
 
 @interface CSLCellShowViewLongText : UITableViewCell
 
-@property (nonatomic, weak) IBOutlet UITextView *longText;
+@property (nonatomic, strong) IBOutlet UITextView *longText;
+@property (nonatomic, strong) IBOutlet UILabel *titleText;
 
 @end

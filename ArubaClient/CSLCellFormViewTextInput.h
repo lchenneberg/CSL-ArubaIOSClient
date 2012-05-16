@@ -10,7 +10,7 @@
 
 @interface CSLCellFormViewTextInput : UITableViewCell
 
-@property(nonatomic, weak) IBOutlet UITextField *textInputField;
-@property(nonatomic, weak) IBOutlet UILabel *inputLabel;
+@property(nonatomic, strong) IBOutlet UITextField *textInputField;
+@property(nonatomic, strong) IBOutlet UILabel *inputLabel;
 
 @end

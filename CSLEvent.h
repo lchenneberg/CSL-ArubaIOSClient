@@ -23,5 +23,9 @@
     @property (nonatomic, retain) NSDate*   createdAt;
     @property (nonatomic, retain) NSDate*   updatedAt;
     @property (nonatomic) float             price;
+    @property (nonatomic, retain) UIImage*  eventImage;
+
+
+-(void)fetchEventImage;
 
 @end

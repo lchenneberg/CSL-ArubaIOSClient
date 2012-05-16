@@ -20,7 +20,7 @@
     CSLCellFormViewTextInput *inputPrice;
 }
 
-@property (weak, nonatomic) IBOutlet UITableView *formTableView;
+@property (nonatomic, strong) IBOutlet UITableView *formTableView;
 @property (nonatomic, strong) NSMutableArray *cells;
 @property (nonatomic, strong) CSLEvent *cslEvent;
 
@@ -29,6 +29,7 @@
 @property (nonatomic, strong) CSLCellFormViewTextInput *inputTo;
 @property (nonatomic, strong) CSLCellFormViewTextInput *inputLocation;
 @property (nonatomic, strong) CSLCellFormViewTextInput *inputPrice;
+
 
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section;

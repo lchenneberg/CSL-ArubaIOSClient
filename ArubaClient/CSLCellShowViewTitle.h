@@ -10,6 +10,6 @@
 
 @interface CSLCellShowViewTitle : UITableViewCell
 
-@property(nonatomic,weak) IBOutlet UILabel* title;
+@property(strong,nonatomic) IBOutlet UILabel* title;
 
 @end

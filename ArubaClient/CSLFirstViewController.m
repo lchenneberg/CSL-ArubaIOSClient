@@ -29,6 +29,7 @@
 
 - (void)viewDidLoad
 {
+    //self.parentViewController.view.backgroundColor = [CSLAppDelegate getMainBackground];
     self.parentViewController.view.backgroundColor = [CSLAppDelegate getMainBackground];
     
     eventData = [[NSArray alloc] init];
@@ -87,7 +88,6 @@
 -(void)objectLoader:(RKObjectLoader *)objectLoader didLoadObjects:(NSArray *)objects{
     self.eventData = objects;
     [eventsTableView reloadData];
-    NSLog(@"Loaded events: %@", objects);
 }
 -(void)objectLoader:(RKObjectLoader *)objectLoader didFailWithError:(NSError *)error{
     NSLog(@"Request Failed %@", error);

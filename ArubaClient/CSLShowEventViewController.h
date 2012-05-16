@@ -15,8 +15,10 @@
     __strong NSMutableArray *cells;
 }
 
-@property (weak, nonatomic) IBOutlet UITableView *detailsTable;
-@property (nonatomic, retain) CSLEvent *cslEvent;
+@property (strong, nonatomic) IBOutlet UITableView *detailsTable;
+@property (nonatomic, strong) IBOutlet UIActivityIndicatorView *activityIndicator;
+
+@property (nonatomic, strong) CSLEvent *cslEvent;
 @property (nonatomic, strong) NSMutableArray *cells;
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section;

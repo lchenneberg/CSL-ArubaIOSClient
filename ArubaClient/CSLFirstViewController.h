@@ -11,8 +11,8 @@
 #import "CSLEvent.h"
 
 @interface CSLFirstViewController : UITableViewController <RKRequestDelegate, RKObjectLoaderDelegate, UITableViewDelegate,UITableViewDataSource>
-@property (nonatomic, retain) NSArray *eventData;
-@property (weak, nonatomic) IBOutlet UITableView *eventsTableView;
+@property (strong, nonatomic) NSArray *eventData;
+@property (strong, nonatomic) IBOutlet UITableView *eventsTableView;
     
 -(void)request:(RKRequest *)request didLoadResponse:(RKResponse *)response;
 -(void)request:(RKRequest *)request didFailLoadWithError:(NSError *)error;

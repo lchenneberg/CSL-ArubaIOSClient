@@ -10,7 +10,7 @@
 
 @interface CSLCellShowViewAttribute : UITableViewCell
 
-@property(nonatomic,weak) IBOutlet UILabel* attrName;
-@property(nonatomic,weak) IBOutlet UILabel* attrText;
+@property(nonatomic,strong) IBOutlet UILabel* attrName;
+@property(nonatomic,strong) IBOutlet UITextView* attrText;
 
 @end
